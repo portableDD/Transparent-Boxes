@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- FORM CONTAINER -->
+    <div class="container">
+      <!-- Form Heading -->
+      <h1>Login Here</h1>
+
+      <!-- Form -->
+      <form>
+        <!-- Username Input -->
+        <div class="individual-input-div-container">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Email or Phone"
+          />
+        </div>
+
+        <!-- Password Input -->
+        <div class="individual-input-div-container">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <button type="submit">Log In</button>
+
+        <!-- Individual buttons for Google and Facebook -->
+        <div class="google-facebook-container">
+          <!-- GOOGLE BUTTON -->
+          <button class="socialbtn">
+            <span
+              ><img
+                src="./google logo.svg"
+                alt="google logo"
+                width="15px"
+                height="auto"
+            /></span>
+            Google
+          </button>
+
+          <!-- FACEBOOK BUTTON -->
+          <button class="socialbtn">
+            <span
+              ><img
+                src="./facebook logo.svg"
+                alt="facebook logo"
+                width="16px"
+                height="auto"
+            /></span>
+            Facebook
+          </button>
+        </div>
+      </form>
+
+      <!-- Orange Color Circle Box -->
+      <div class="blurred-orange-box"></div>
+
+      <!-- Blue Color Circle Box -->
+      <div class="blurred-blue-box"></div>
+    </div>
+
+    <!-- Body Background Color Circle Boxes -->
+    <div class="orange-box"></div>
+    <div class="blue-box"></div>
+  </body>
+</html>
